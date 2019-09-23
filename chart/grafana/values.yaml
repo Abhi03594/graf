@@ -13,7 +13,7 @@
 ##
 image:
   registry: docker.io
-  repository: grafana/grafana
+  repository: bitnami/grafana
   tag: 6.1.6
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
