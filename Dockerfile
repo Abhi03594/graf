@@ -19,5 +19,5 @@ ARG TAG
 
 
 EXPOSE 3000
-# CMD /bin/bash
-CMD 600
+CMD /bin/bash
+
