@@ -120,7 +120,7 @@ config:
 ## dashboards from "/opt/bitnami/grafana/dashboards"
 ##
 dashboardsProvider:
-  enabled: false
+  enabled: true
   ## ConfigMap with a custom provider file.
   ## Important to set the Path to "/opt/bitnami/grafana/dashboards"
   configMapName:
@@ -199,7 +199,7 @@ service:
 
 ingress:
   ## Set to true to enable ingress record generation
-  enabled: false
+  enabled: true
 
   ## Set this to true in order to add the corresponding annotations for cert-manager
   certManager: false
